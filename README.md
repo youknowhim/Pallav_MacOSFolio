@@ -1,73 +1,46 @@
-# Welcome to your Lovable project
+# 💻 MacOS-Style Portfolio – Pallav Rai
 
-## Project info
+A fully interactive, MacOS-inspired personal portfolio built using **React**, **TypeScript**, and **Vite**.  
+This portfolio recreates a desktop-like environment featuring draggable windows, a dock, apps, animations, and a smooth Mac-like user experience.
 
-**URL**: https://lovable.dev/projects/04c44d48-c1e0-438e-959a-fbb5f990d0f8
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+### 🖥️ MacOS-Like UI
+- Dynamic desktop environment  
+- Draggable and resizable windows  
+- Animated dock with app shortcuts  
+- Status bar with time, icons, and interactions  
 
-**Use Lovable**
+### 📂 Built-in Apps
+- **About Me / Intro**
+- **Projects Viewer**
+- **Experience Timeline**
+- **Resume Window**
+- **Contact App**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/04c44d48-c1e0-438e-959a-fbb5f990d0f8) and start prompting.
+Each app opens inside a window — just like a real Mac.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Category | Tools |
+|---------|-------|
+| Framework | React + TypeScript |
+| Build Tool | Vite |
+| Styling | Tailwind CSS, shadcn/ui |
+| State | Custom hooks (Window Manager, Toasts) |
+| Animations | Framer Motion |
+| Icons | Radix & Lucide |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📦 Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Clone the repo:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/04c44d48-c1e0-438e-959a-fbb5f990d0f8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```bash
+git clone https://github.com/youknowhim/Pallav_MacOSFolio.git
+cd Pallav_MacOSFolio
